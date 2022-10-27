@@ -1,0 +1,104 @@
+*{
+    color: #db5959;
+}
+header{
+    background-image: url(images/about.jpg);
+    min-height: 70vh;
+}
+
+.nav nav ul li a{
+    color: white;
+}
+.leader{
+    width: 70%;
+    border-radius: 5px;
+    margin: 5%;
+
+}
+.intro p{
+    color: white;
+}
+.intro h1{
+    color: white;
+}
+.nav nav ul li button{
+    width: 100px;
+    padding: 2px 2px;
+    margin-bottom: 5%;
+    border: 1px solid rgb(236, 195, 195);
+    background: rgba(222, 184, 135, 0.74);
+    transition: 0.5s;
+    border-radius: 10px;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.major{
+    text-align: center;
+}
+.major h1{
+    text-align: center;
+}
+.detail p{
+    text-align: left;
+    margin-bottom: 5%;
+}
+.values{
+    padding: 0%;
+    margin-left: 10%;
+}
+.values ul li{
+    list-style: initial;
+}
+.value h1{
+    margin-bottom: 0;
+    
+}
+.mission{
+    margin:5% 0 5%;
+}
+section{
+    margin: 2%;
+}
+.detail a{
+    margin-right: 10%;
+}
+.value{
+    background-color: #2e2e6e;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:750px) {
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .detail p{
+        text-align: left;
+        margin-top: 15%;
+
+    }
+    
+}

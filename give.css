@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(0, 8, 10);
+    
+}
+body{
+    background-color: lightcyan;
+}
+
+header{
+    background-color: rgb(0, 38, 255);
+    background-image: url(images/give.jpg);
+    background-blend-mode:exclusion;
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 2%;
+    text-align: center;
+}
+.main >*{
+    width: 100%;
+}
+.head{
+    margin-bottom: 10%;
+}
+.a{
+    margin-left: 10%;
+}
+.words {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    text-align: left;
+}
+.word h1{
+    color: aliceblue;
+}
+.words button{
+    width: 50%;
+    padding: 5%;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.words button a{
+    color: blue;
+}
+.but{
+    text-align: center;
+}
+.i{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+@media screen and (min-width:900px) {
+    .words{
+        flex-direction: row;
+    }
+    .words button{
+        margin-top: 70%;
+    }
+    .words button{
+        width: 100%;
+    }
+}
