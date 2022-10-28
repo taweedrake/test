@@ -18,6 +18,9 @@ header{
 .intro p{
     color: white;
 }
+.verse p{
+    margin-bottom:0%;
+}
 .intro h1{
     color: white;
 }
