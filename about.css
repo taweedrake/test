@@ -44,6 +44,9 @@ header{
 .major h1{
     text-align: center;
 }
+.intro{
+    margin-left:2%;
+}
 .detail p{
     text-align: left;
     margin-bottom: 5%;
