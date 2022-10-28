@@ -128,9 +128,9 @@ header div {
   font-size: 20px;
   color:black;
 }
-.info h2 {
-  font-size: 25px;
-  font-weight: 900;
+.info h4 {
+  font-size: 20px;
+  font-weight: 100;
   color: White;
   margin-bottom: 1%;
 }
